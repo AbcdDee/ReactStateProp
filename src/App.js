@@ -5,10 +5,21 @@ import LoginLogout from './component/LoginLogout';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header"> */}
+   {/* <h3>  HELLO WORLD</h3> */}
+
+   <div class="container">
+        <div class="header">
+            <h1>React JS</h1>
         <img src={logo} className="App-logo" alt="logo" />
-   <h3>  HELLO WORLD</h3>
-      </header>
+            <i class="fab fa-react icon"></i>
+        </div>
+        <div class="footer">
+            Hello World
+        </div>
+    </div>
+   
+      {/* </header> */}
       <IncreaseDecrease/>
       <LoginLogout/>
     </div>

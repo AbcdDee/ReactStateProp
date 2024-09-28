@@ -20,6 +20,7 @@ const IncreaceDecrease= () => {
           className="btn btn-success"
           onClick={handleIncrement}
         >
+           {/* <img src={logo}    /> */}
           Increment
         </button>
         <button
@@ -34,3 +35,8 @@ const IncreaceDecrease= () => {
 };
 
 export default IncreaceDecrease;
+
+
+{/* <div className="App">
+<header className="App-header">
+  <img src={logo} className="App-logo" alt="logo" /> */}
